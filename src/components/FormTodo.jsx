@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import './FormTodo.scss';
 const FormTodo = (props) => {
    const [description, setDescription] = useState("");
    const { handleAddItem } = props;
@@ -19,7 +19,7 @@ const FormTodo = (props) => {
          <div className="todo-list">
             <div className="file-input">
                <input type="text" className="text" value={description} onChange={e => setDescription(e.target.value)}/>
-               <button className="button-pink" disabled={description ? "" : "disabled"}>Add</button>
+               <button className="button" disabled={description ? "" : "disabled"}>Add</button>
             </div>
          </div>
       </form>

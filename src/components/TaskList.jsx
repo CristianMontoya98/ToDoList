@@ -1,6 +1,6 @@
 import React from "react";
 import Checkbox from "./Checkbox";
-
+import './taskList.scss';
 const TaskList = props => {
    const {list, setList} = props;
 

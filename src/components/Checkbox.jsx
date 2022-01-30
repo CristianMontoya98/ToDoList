@@ -1,5 +1,5 @@
 import React, {Fragment} from "react";
-
+import './Checkbox.scss';
 const Checkbox = props => {
    const {
       onChange,

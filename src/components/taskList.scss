@@ -1,0 +1,15 @@
+.button-blue{
+    margin-top: 1em;
+    outline: none;
+    padding: 8px;
+    font-size: 15px;
+    border: 0px solid;
+    border-radius: 5px;
+    color: white;
+    background: #0d679b;
+    transition: all ease 0.5s;
+}
+.button-blue:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+} 

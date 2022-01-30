@@ -1,0 +1,45 @@
+.todo-list {
+    background: #fff;
+    font-size: 15px;
+    max-width: 300px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 8px 16px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    }
+    .file-input{
+        padding: 2px;
+        
+        
+        }
+        .file-input > .text {
+            border-radius: 10px;
+            padding: 0px 10px;
+            font-size: 30px;
+            width: 230px;
+            height: 30px;
+            text-align: center;
+            background:transparent;
+            border: solid 2px #0d679b ;
+            }
+    .button {
+        margin-top: 1em;
+    outline: none;
+    padding: 8px;
+    font-size: 15px;
+    border: 0px solid;
+    border-radius: 5px;
+    color: white;
+    background: #0d679b;
+    transition: all ease 0.5s;
+    }
+    .button:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+    } 
+    .button[disabled]{
+    opacity: 0.3;
+    cursor: default;
+    }
+    
