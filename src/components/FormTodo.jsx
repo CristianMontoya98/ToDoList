@@ -24,7 +24,7 @@ const FormTodo = (props) => {
                <button className="button" disabled={description ? "" : "disabled"}>Add</button>
             </div>
          </div>
-         <h4>Cambios realizados por Hernando1</h4>
+         <h4>Cambio ahora de cristian</h4>
          <h4>Cambios realizados por Hernando2</h4>
          <h4>Cambios realizados por Hernando3</h4>
       </form>
