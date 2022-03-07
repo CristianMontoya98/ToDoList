@@ -16,6 +16,7 @@ const FormTodo = (props) => {
 
    return(
       <form onSubmit={handleSubmit}>
+         <h2>Esta es la prueba de GIT para practica</h2>
          <div className="todo-list">
             <div className="file-input">
                <input type="text" className="text" value={description} onChange={e => setDescription(e.target.value)}/>
